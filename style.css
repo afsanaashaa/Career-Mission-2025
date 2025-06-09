@@ -1,0 +1,167 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+    min-height: 100vh;
+}
+
+#navbar-container {
+    background-color: #FFFFFF60;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between; 
+    width: 87.5%;
+    align-items: center;
+}
+
+#career {
+    height: 42px;
+}
+ #navbar span {
+    color: #FFA500;
+ }
+
+ .btn {
+    background-image: linear-gradient(#FFA500, #FFD447);
+    padding: 17px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000025;
+    border: none;
+    font-size: 20px;
+    font-weight: semi-bold;
+ }
+    
+ #banner {
+    background-color: #E6EDF9;
+    width: 87.5%;
+    margin: 100px auto 100px auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 32px;
+    text-align: center;
+ }
+
+ h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.heading-content h2 {
+    font-size: 32px;
+    text-align: center;
+}
+ p {
+    margin: 0 auto;
+    width: 852px;
+    color: #0D1321;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#banner-content .btn , #reason-content-text .btn {
+    margin-top: 32px;
+}
+
+#Reasons {
+    width: 87.5%;
+    margin: 0px auto 100px auto;
+}
+#reason-content {
+    background-color: #E6EDF9;
+    padding: 48px;
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+#reason-content-text {
+    width: 60%;
+}
+#reason-content-image {
+    width: 40%;
+}
+
+#reason-content-text h2 {
+    color: #0D132170;
+}
+
+#reason-content-text p {
+    text-align: left;
+}
+
+#inspiration-content{
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 48px auto 0 auto;
+    width: 76.4%;
+    /* padding: 32px; */
+}
+#inspiration-content iframe {
+    display: block;
+    border: none;
+    padding: 0;
+    width: 1036px;
+    height: 556px;
+}
+
+#target {
+    width: 87.5%;
+    margin: 100px auto;
+
+}
+
+#skill-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px auto;
+}
+
+.skill {
+    background-image: linear-gradient(#E6EDF9, #9DE5FF);
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+    width: 320px;
+    box-shadow: 0 4px 40px #00000025;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+}
+.skill img, .skill h2 {
+    margin-bottom: 24px;
+}
+
+#footer {
+    background-color: #FFFFFF60;
+    height: 100px;
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
